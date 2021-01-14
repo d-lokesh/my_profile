@@ -1,0 +1,27 @@
+/* div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1360px;
+    padding: 50px;
+    font-size: 20px;
+  } */
+
+  #sticky {
+    position: fixed;
+    position: -webkit-sticky;
+    top:0;
+
+  }
+
+  .eff{
+    color: #3eb8a5;
+    font-weight: bold;
+    transition: 1s;
+    position: absolute;
+    left:   40px;
+      -webkit-animation: slide 0.5 forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0.5s;
+  }
+    
