@@ -16,7 +16,7 @@ class Nav extends Component {
                             <div class="container-fluid">
                                 {/* <img src={brand} alt="" width="30px" height="30px" /> */}
                                 <b> <a class="navbar-brand" style={{
-                                    color: "blue",
+                                    color: "#3eb8a5",
                                     marginLeft: "7px  "
 
                                 }} href="#">Lokesh</a> </b>

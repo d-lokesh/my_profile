@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import "../projects/project.css"
 import "../stdservice/s.css";
-import img from "../about/assets/about.jpg"
+// import img from "../about/assets/about.jpg"
+import img from "../about/assets/me1.jpg"
+
+
 
 import DirectionsTwoToneIcon from '@material-ui/icons/DirectionsTwoTone';
 import ContactPhoneRoundedIcon from '@material-ui/icons/ContactPhoneRounded';
 import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
 import LanguageOutlinedIcon from '@material-ui/icons/LanguageOutlined';
+import DirectionsIcon from '@material-ui/icons/Directions';
+import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
 
 
 
@@ -16,54 +21,53 @@ class Contact extends Component {
         return (<div>
             <div className="container">
                 <h1 style={{ textAlign: "center" }}>Contact Me</h1>
-                <p style={{ textAlign: "center", color: "gray" }}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
-
-<br />
-                    <br />
-                    <div className="row">
-                        <div className="col-sm-3">
-                            <div class="card shadow-custom" style={{ width: " 16rem" }}>
-                                <div class="card-body" style={{ textAlign: "center" }}>
-                                    <DirectionsTwoToneIcon style={{ width: "80px", height: "80px", color: "blue" }}></DirectionsTwoToneIcon>
-                                    <h5 style={{ color: "black" }}>Address</h5>
-                                    <p style={{ color: "gray" }}>198 West 21th Street, Suite 721 New York NY 10016</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div class="card shadow-custom">
-                                <div class="card-body" style={{ textAlign: "center" }}>
-                                    <ContactPhoneRoundedIcon style={{ width: "80px", height: "80px", color: "blue" }}></ContactPhoneRoundedIcon>
-                                    <h5 style={{ color: "black" }}>Contact Number
-</h5>
-                                    <p style={{ color: "blue" }}>+91 7995830577</p>
-                                    <br />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div class="card shadow-custom">
-                                <div class="card-body" style={{ textAlign: "center" }}>
-                                    <EmailOutlinedIcon style={{ width: "80px", height: "80px", color: "blue" }}></EmailOutlinedIcon>
-                                    <h5 style={{ color: "black" }}>Email Address
-</h5>
-                                    <p style={{ color: "blue" }}>dlokesh900@gmail.com</p>   </div>
-                                <br />
-                            </div>
-                        </div>
-                        <div className="col-sm-3">
-                            <div class="card shadow-custom" style={{ width: " 16rem" }}>
-                                <div class="card-body" style={{ textAlign: "center" }}>
-                                    <LanguageOutlinedIcon style={{ width: "80px", height: "80px", color: "blue" }}></LanguageOutlinedIcon>
-                                    <h5 style={{ color: "black" }}>Website
-</h5>
-                                    <p style={{ color: "blue" }}>yoursite.com</p>
-                                    <br />
-                                </div>
+                {/* <p style={{ textAlign: "center", color: "gray" }}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia                </p> */}
+                <br />
+                <br />
+                <div className="row">
+                    <div className="col-sm-3">
+                        <div class="card shadow-custom" style={{ width: " 16rem" }}>
+                            <div class="card-body" style={{ textAlign: "center" }}>
+                                <HomeOutlinedIcon style={{ width: "80em", height: "80em", color: "#3eb8a5" }}></HomeOutlinedIcon>
+                                {/* <DirectionsTwoToneIcon style={{ width: "80px", height: "80px", color: "#3eb8a5" }}></DirectionsTwoToneIcon> */}
+                                <h5 style={{ color: "black" }}>Address</h5>
+                                <p style={{ color: "gray" }}>Hydearabad, Telangana 500100</p>
                             </div>
                         </div>
                     </div>
-                </p>
+                    <div className="col-sm-3">
+                        <div class="card shadow-custom">
+                            <div class="card-body" style={{ textAlign: "center" }}>
+                                <ContactPhoneRoundedIcon style={{ width: "80px", height: "80px", color: "#3eb8a5" }}></ContactPhoneRoundedIcon>
+                                <h5 style={{ color: "black" }}>Contact Number
+</h5>
+                                <p style={{ color: "#3eb8a5" }}>+91 7995830577</p>
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-3">
+                        <div class="card shadow-custom">
+                            <div class="card-body" style={{ textAlign: "center" }}>
+                                <EmailOutlinedIcon style={{ width: "80px", height: "80px", color: "#3eb8a5" }}></EmailOutlinedIcon>
+                                <h5 style={{ color: "black" }}>Email Address
+</h5>
+                                <p style={{ color: "#3eb8a5" }}>dlokesh900@gmail.com</p>   </div>
+                            <br />
+                        </div>
+                    </div>
+                    <div className="col-sm-3">
+                        <div class="card shadow-custom" style={{ width: " 16rem" }}>
+                            <div class="card-body" style={{ textAlign: "center" }}>
+                                <LanguageOutlinedIcon style={{ width: "80px", height: "80px", color: "#3eb8a5" }}></LanguageOutlinedIcon>
+                                <h5 style={{ color: "black" }}>Website
+</h5>
+                                <p style={{ color: "#3eb8a5" }}>Lokeshd.com</p>
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <br />
                 <br />

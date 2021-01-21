@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import about from "./assets/about.jpg"
+import about from "./assets/me1.jpg"
 class About extends Component {
     state = {}
     render() {
@@ -16,7 +16,7 @@ class About extends Component {
                                 <div className="col-sm-11">
                                     <h1 style={{ fontWeight: "bold" }} >About Me</h1>
                                     <br />
-                                    <h6 style={{ color: "gray" }}>A small river named Duden flows by their place and supplies it with the necessary regelialia</h6>
+                                    <h6 style={{ color: "gray" }}>Full Stack Developoer at <span> <b>  STABLX </b></span> </h6>
                                     <br />
                                     <div className="row">
                                         <div className="col-sm-11">
@@ -35,7 +35,7 @@ class About extends Component {
                                     <br />
                                     <br />
                                     <br />
-                                    <h4 > <span style={{ color: "#3eb8a5" }}>120</span> Project completed</h4>
+                                    <h4 > <span style={{ color: "#3eb8a5" }}>04</span> Project completed</h4>
 
                                     <br />
                                     <button style={{ borderRadius: "20px", backgroundColor: "#3eb8a5" }} type="button" class="btn ">Download cv</button>

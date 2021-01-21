@@ -25,8 +25,10 @@ class Blog extends Component {
                             <div class="card-body">
                                 <p style={{ fontWeight: "bold" }}>
                                     Why Lead Generation is Key for Business Growth</p>
-                                <p style={{ color: "blue", fontWeight: "bold" }}>sept.12,2021 <span><a href="/">admin</a><MessageIcon style={{ height: "15px", wedth: "15px" }}></MessageIcon>3
-                                </span></p>
+                                <p style={{ color: "#3eb8a5", fontWeight: "bold" }}>sept.12,2021</p>
+
+                                {/* <p style={{ color: "blue", fontWeight: "bold" }}>sept.12,2021 <span><a href="/">admin</a><MessageIcon style={{ height: "15px", wedth: "15px" }}></MessageIcon>3
+                                </span></p> */}
                                 <p style={{ color: "gray", fontSize: "12px" }}>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                             </div>
                         </div>
@@ -37,8 +39,10 @@ class Blog extends Component {
                             <div class="card-body">
                                 <p style={{ fontWeight: "bold" }}>
                                     Why Lead Generation is Key for Business Growth</p>
-                                <p style={{ color: "blue", fontWeight: "bold" }}>sept.12,2021 <span><a href="/">admin</a><MessageIcon style={{ height: "15px", wedth: "15px" }}></MessageIcon>3
-                                </span></p>
+                                <p style={{ color: "#3eb8a5", fontWeight: "bold" }}>sept.12,2021</p>
+
+                                {/* <p style={{ color: "blue", fontWeight: "bold" }}>sept.12,2021 <span><a href="/">admin</a><MessageIcon style={{ height: "15px", wedth: "15px" }}></MessageIcon>3
+                                </span></p> */}
                                 <p style={{ color: "gray", fontSize: "12px" }}>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                             </div>
                         </div>
@@ -49,8 +53,9 @@ class Blog extends Component {
                             <div class="card-body">
                                 <p style={{ fontWeight: "bold" }}>
                                     Why Lead Generation is Key for Business Growth</p>
-                                <p style={{ color: "blue", fontWeight: "bold" }}>sept.12,2021 <span><a href="/">admin</a><MessageIcon style={{ height: "15px", wedth: "15px" }}></MessageIcon>3
-                                </span></p>
+                                <p style={{ color: "#3eb8a5", fontWeight: "bold" }}>sept.12,2021</p>
+                                {/* <p style={{ color: "blue", fontWeight: "bold" }}>sept.12,2021 <span><a href="/">admin</a><MessageIcon style={{ height: "15px", wedth: "15px" }}></MessageIcon>3
+                                </span></p> */}
                                 <p style={{ color: "gray", fontSize: "12px" }}>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                             </div>
                         </div>
@@ -68,8 +73,8 @@ class Blog extends Component {
                 <br />
                 <br />
                 <br />
-                <h2 style={{ color: "white" }}>I'm <sapan style={{ color: "green" }}>Available</sapan> for freelancing</h2>
-                <p style={{ color: "white" }}>A small river named Duden flows by their place and supplies it with the necessary regelialia</p>
+                <h2 style={{ color: "white" }}>I'm <sapan style={{ color: "gray" }}>Available</sapan> for freelancing</h2>
+                <p style={{ color: "white" }}>If You Are Working On Something That You Really Care About, You Don't Have To Be Pushed</p>
                 <button style={{ borderRadius: "20px", backgroundColor: "#3eb8a5" }} type="button" class="btn ">Hire Me</button>
                 <br /><br /><br />
             </div>

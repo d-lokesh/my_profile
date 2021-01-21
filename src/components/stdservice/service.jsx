@@ -26,9 +26,9 @@ class Service extends Component {
 
                 <div className="row">
                     <div className="col-md-4">
-                        <div class="card shadow-custom h" style={{ display: "inline-block" }}>
+                        <div class="card h" >
                             <div class="card-body">
-                                <SearchIcon style={{ width: "80px", height: "80px", color: "blue" }} ></SearchIcon>
+                                <SearchIcon style={{ width: "80px", height: "80px", color: "#3eb8a5" }} ></SearchIcon>
                                 <h6 style={{ fontSize: "15px" }}>WEB DESIGN</h6>
                                 <hr style={{ marginLeft: "130px", marginRight: "130px", color: "blue" }} />
 
@@ -40,7 +40,7 @@ class Service extends Component {
                         <br />
                         <div class="card shadow-custom h" style={{ display: "inline-block" }}>
                             <div class="card-body">
-                                <EmojiObjectsIcon style={{ width: "80px", height: "80px", color: "blue" }} ></EmojiObjectsIcon>
+                                <EmojiObjectsIcon style={{ width: "80px", height: "80px", color: "#3eb8a5" }} ></EmojiObjectsIcon>
                                 <h6 style={{ fontSize: "15px" }}>APP DEVELOPMENT</h6>
                                 <hr style={{ marginLeft: "130px", marginRight: "130px", color: "blue" }} />
 
@@ -52,7 +52,7 @@ class Service extends Component {
                     <div className="col-md-4">
                         <div class="card shadow-custom h" style={{ display: "inline-block" }}>
                             <div class="card-body">
-                                <AddAPhotoIcon style={{ width: "80px", height: "80px", color: "blue" }} ></AddAPhotoIcon>
+                                <AddAPhotoIcon style={{ width: "80px", height: "80px", color: "#3eb8a5" }} ></AddAPhotoIcon>
                                 <h6 style={{ fontSize: "15px" }}>PHOTOGRAPHY</h6>
                                 <hr style={{ marginLeft: "110px", marginRight: "110px", color: "blue" }} />
 
@@ -64,7 +64,7 @@ class Service extends Component {
                         <br />
                         <div class="card shadow-custom h" style={{ display: "inline-block" }}>
                             <div class="card-body">
-                                <BrandingWatermarkIcon style={{ width: "80px", height: "80px", color: "blue" }} ></BrandingWatermarkIcon>
+                                <BrandingWatermarkIcon style={{ width: "80px", height: "80px", color: "#3eb8a5" }} ></BrandingWatermarkIcon>
                                 <h6 style={{ fontSize: "15px" }}>BRANDING</h6>
                                 <hr style={{ marginLeft: "130px", marginRight: "130px", color: "blue" }} />
 
@@ -76,7 +76,7 @@ class Service extends Component {
                     <div className="col-md-4">
                         <div class="card shadow-custom h" style={{ display: "inline-block" }}>
                             <div class="card-body">
-                                <WebIcon style={{ width: "80px", height: "80px", color: "blue" }} ></WebIcon>
+                                <WebIcon style={{ width: "80px", height: "80px", color: "#3eb8a5" }} ></WebIcon>
                                 <h6 style={{ fontSize: "15px" }}>WEB DESIGN</h6>
                                 <hr style={{ marginLeft: "130px", marginRight: "130px", color: "blue" }} />
 
@@ -88,7 +88,7 @@ class Service extends Component {
                         <br />
                         <div class="card shadow-custom h" style={{ display: "inline-block" }}>
                             <div class="card-body">
-                                <WbIncandescentIcon style={{ width: "80px", height: "80px", color: "blue" }} ></WbIncandescentIcon>
+                                <WbIncandescentIcon style={{ width: "80px", height: "80px", color: "#3eb8a5" }} ></WbIncandescentIcon>
                                 <h6 style={{ fontSize: "15px" }}>PRODUCT STRATEGY</h6>
                                 <hr style={{ marginLeft: "130px", marginRight: "130px", color: "blue" }} />
 
