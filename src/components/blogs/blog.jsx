@@ -20,7 +20,7 @@ class Blog extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
-                        <div class="card" style={{ width: " 18rem" }}>
+                        <div class="card" >
                             <img src="https://preview.colorlib.com/theme/ronaldo/images/image_3.jpg" class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <p style={{ fontWeight: "bold" }}>
@@ -34,7 +34,7 @@ class Blog extends Component {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div class="card" style={{ width: " 18rem", }}>
+                        <div class="card" >
                             <img src="https://preview.colorlib.com/theme/ronaldo/images/image_1.jpg" class="card-img-top" alt="..." height="40%" />
                             <div class="card-body">
                                 <p style={{ fontWeight: "bold" }}>
@@ -48,7 +48,7 @@ class Blog extends Component {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <div class="card" style={{ width: " 18rem" }}>
+                        <div class="card" >
                             <img src="https://preview.colorlib.com/theme/ronaldo/images/image_3.jpg" class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <p style={{ fontWeight: "bold" }}>

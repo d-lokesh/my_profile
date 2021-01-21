@@ -16,12 +16,14 @@
   .eff{
     color: #3eb8a5;
     font-weight: bold;
-    transition: 1s;
-    position: absolute;
+    transition: 0.8s;
+    position:-webkit-sticky;
     left:   40px;
+    margin: 5px;
       -webkit-animation: slide 0.5 forwards;
     -webkit-animation-delay: 0.5s;
     animation: slide 0.5s forwards;
     animation-delay: 0.5s;
+  font-size: 20px;
   }
     

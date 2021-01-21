@@ -28,7 +28,7 @@ class Resume extends Component {
 
         document.addEventListener("scroll", () => {
             console.log(window.scrollY);
-            const backgroundcolor = (window.scrollY > 1413 && window.scrollY < 3347) ? 1 : 2;
+            const backgroundcolor = (window.scrollY > 1339 && window.scrollY < 3347) ? 1 : 2;
 
             this.setState({ flag: backgroundcolor });
 
@@ -37,7 +37,7 @@ class Resume extends Component {
 
             }
 
-            if (1413 < window.scrollY && window.scrollY < 1784) {
+            if (1339 < window.scrollY && window.scrollY < 1784) {
 
                 this.setState({ c1: true });
 
@@ -90,11 +90,11 @@ class Resume extends Component {
                         {this.state.flag === 2 ? (<div ></div>) : (<div id="sticky" style={{
                             textAlign: "left", marginTop: "90px"
                         }}>
-                            <ul class="list-group list-group-flush" style={{ fontWeight: "bold" }}>
-                                {this.state.c1 ? (<li class="list-group-item eff" >-Education</li>) : (<li class="list-group-item" >Education</li>)}
+                            <ul class="list-group list-group-flush" style={{ fontWeight: "bold", padding: "8px" }}>
+                                {this.state.c1 ? (<li class="list-group-item eff"  >-Education</li>) : (<li class="list-group-item" >Education</li>)}
                                 {/* <li class="list-group-item" >Education</li> */}
                                 {/* <li class="list-group-item">Experience</li> */}
-                                {this.state.c2 ? (<li class="list-group-item eff" >-Experience</li>) : (<li class="list-group-item" >Experience</li>)}
+                                {this.state.c2 ? (<li class="list-group-item eff"  >-Experience</li>) : (<li class="list-group-item" >Experience</li>)}
 
                                 {/* <li class="list-group-item">Skills</li> */}
                                 {this.state.c3 ? (<li class="list-group-item eff" >-Skills</li>) : (<li class="list-group-item" >Skills</li>)}
@@ -500,7 +500,7 @@ class Resume extends Component {
 
                     </div>
                 </div>
-            </div>
+            </div >
         );
     }
 }
